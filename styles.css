@@ -1,0 +1,266 @@
+
+html {
+  width: 100%;
+  height: auto;
+ /* background-color: #ACC8E5;*/
+  color: #080941;
+  font-size: 15px;
+  font-family: 'PT Serif', serif;
+  
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+
+.parag{
+  font-family: 'PT Serif', serif;
+  
+}
+
+
+/* The sidebar menu */
+.sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 85px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #1C324C; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+  padding-left: 10px;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+/* nav top bar icons*/
+.nav-bar  {
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  background-color: whitesmoke;
+  margin-left: 30px;
+  padding-left: 50px;
+  
+}
+.fa-facebook-square:before {
+  padding: 5px;
+  font-size: 1.8rem;
+  margin: 0;
+ }
+ .fa-linkedin-square:before {
+   padding: 5px;
+   font-size: 1.8rem;
+   margin: 0;
+ }
+ .fa-twitter-square:before {
+   padding: 5px;
+   font-size: 1.8rem;
+   margin: 0;
+ }
+/* Style page content */
+.main-grid {
+  display: block;
+  padding-bottom: 0px;
+  margin: 77px ;
+  margin-top: 40px;
+  width: 80%;
+  height: auto;
+  /*background-color: #818181;*/
+  
+  /*background-color: #2906f0;*/
+}
+
+#about{
+  padding-top: 30px;
+}
+.parag{
+  font-size: 12px;
+  
+}
+h1{
+  font-size: 10vw;
+}
+#tech-imgs{
+  width: 50%;
+  height: auto;
+}
+
+li{
+  
+  
+  list-style-type: none;
+  
+}
+#about #imgg{
+  border-radius: 17px;
+  margin-bottom: 5px;
+  font-size: 0.6em;
+  padding: 13px;
+  
+}
+
+
+#about, h1, p {
+  
+  margin: 0px;
+  padding-left: 5px;
+}
+#about, .parag {
+  
+  margin-top: 5px;
+}
+#hobbies {
+  
+  margin: 77px;
+  margin-top: -40px;
+  width: 80%;
+  height: auto;
+  /*background-color: aqua;*/
+  padding: 10px;
+
+}
+#hobbies, .parag{
+  padding: 6px;
+}
+#sk-secs{
+ 
+  
+}
+#skills {
+  
+  margin-bottom: 2px;
+  height: auto;
+  width: 80%;
+  margin: 77px;
+ /*background-color: tomato;*/
+  
+}
+
+
+.form{
+  margin: 78px;
+
+}
+input{
+  border: 1px solid #0f1ea5;
+  padding: 4px;
+  border-radius: 9px;
+}
+textarea{
+  border: 2px solid #0019fd;
+  padding: 10px 16px;
+  border-radius: 20px;
+  margin: 10px;
+  
+}
+.pra{
+  margin: 0px;
+}
+button{
+  border: 2px solid #0019fd;
+  padding: 10px 16px;
+  border-radius: 9px;
+  margin: 10px;
+}
+button:hover{
+  text-transform: uppercase;
+  background-color: #d9dce7;
+}
+
+.copyright{
+  text-align: center;
+  margin-left: 30px;
+  font-size: 0.5em;
+
+}
+
+ /*On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media  screen and (min-width: 400px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 20px;}
+
+   body{
+    font-size: 1.9em;
+   }
+  
+
+}
+/* large tablets & laptopsizes*/
+@media  screen and (min-width: 896px) {
+   body{
+    font-size: 16px;
+    width: 100%;
+    height: auto;
+    
+   }  
+   html {
+    width: 100%;
+    height: auto;}
+
+   .main-grid{
+    margin-top: 30px;
+    width: auto;
+    height: auto;
+    
+   }
+    h1{
+    font-size: 1.9em ;
+   }
+   .parag{
+    font-size: 1.0em;
+   }
+   #hobbies{
+
+    height: auto;
+    text-align: center;
+    padding-top: 30px;
+    width: auto;
+   }
+  #about{
+   text-align: center;
+  }
+  #skills{
+    height: auto;
+    width: auto;
+    text-align: center;
+  }
+.logo{
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 60%;
+  gap: 60px;
+  padding-left: 20%;
+}
+.logo, h4{
+  text-align: center;
+  margin: 0px;
+}
+.pra{
+  text-align: left;
+}
+textarea{
+  margin: 0;
+  margin-top: 0px;
+
+}
+input{
+  margin: 5px;
+}
+}
